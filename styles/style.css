@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container {
+    flex-grow: 1;
+    position: relative;
+    width: 40vw;
+    min-width: 345px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("/images/background.jpg");
+    background-size: auto;
+    background-size: cover;
+}
+
+.logo {
+    box-sizing: border-box;
+    position: absolute;
+    top: 15rem;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+}
+
+.logo img {
+    vertical-align: middle;
+    width: 100px;
+}
+
+.dummy-text {
+    font-size: 24px;
+    margin: 20vh 40px 5vh;
+    width: 80%;
+}
+
+.dummy-text p.remote-text {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+form {
+    height: 50%;
+}
+
+.form-container {
+    background-color: #FFF;
+    padding: 2rem 2rem;
+    box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, .5);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.form-container p {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.form-cell {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 33%;
+}
+
+.form-cell label {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+form input {
+    border: 1px solid #D6D9DC;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.button-area {
+    padding-left: 2rem;
+}
+
+.button-area a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+button {
+    background-color: #596D48;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}

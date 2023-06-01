@@ -9,13 +9,12 @@ main {
 }
 
 .left-container {
-    flex-grow: 1;
     position: relative;
     width: 40vw;
     min-width: 345px;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0);
-    background-image: url("/images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: auto;
     background-size: cover;
 }

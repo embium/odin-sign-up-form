@@ -14,7 +14,7 @@ main {
     min-width: 345px;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0);
-    background-image: url("../images/background.jpg");
+    background-image: url("background.jpg");
     background-size: auto;
     background-size: cover;
 }
